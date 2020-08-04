@@ -32,3 +32,6 @@ When this application is deployed, it will create an AWS CodePipeline pipeline t
 1. **Publish** (optional): This stage publishes the project to AWS Serverless Application Repository using the publish [app](https://serverlessrepo.aws.amazon.com/applications/arn:aws:serverlessrepo:us-east-1:077246666028:applications~aws-serverless-codepipeline-serverlessrepo-publish). This stage will only be created if you pass 'true' to the `PublishToSAR` parameter when setting up this module.
 
 
+##### Here is an example CodePipeline pipeline that has all 5 stages.
+.
+![aws-sam-codepipeline-cd-pipeline-example](https://github.com/awslabs/aws-sam-codepipeline-cd/raw/master/images/aws-sam-codepipeline-cd-pipeline-example.png)
