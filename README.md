@@ -29,7 +29,7 @@ When this application is deployed, it will create an AWS CodePipeline pipeline t
 1. **Build**: This stage builds the project using AWS CodeBuild.
 1. **Test** (optional): This stage runs the integration tests of the project using CodeBuild. This stage will only be created if you provide the `IntegTestRoleName` parameter when setting up this module.
 1. **Deploy** (optional): This stage deploys the project using CloudFormation. This stage will only be created if you provide the `DeployRoleName` parameter when setting up this application.
-1. **Publish** (optional): This stage publishes the project to AWS Serverless Application Repository using the publish [app](https://serverlessrepo.aws.amazon.com/applications/arn:aws:serverlessrepo:us-east-1:077246666028:applications~aws-serverless-codepipeline-serverlessrepo-publish). This stage will only be created if you pass 'true' to the `PublishToSAR` parameter when setting up this module.
+1. **Publish** (optional): This stage publishes the project to AWS Serverless Application Repository using the publish
 
 
 ##### Here is an example CodePipeline pipeline that has all 5 stages.
