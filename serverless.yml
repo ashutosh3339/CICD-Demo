@@ -16,8 +16,8 @@ functions:
     layers:
       - arn:aws:lambda:us-west-2:394013177213:layer:KiraLambdaLayer:4
 
-plugins:
-  - serverless-python-requirements
+#plugins:
+#  - serverless-python-requirements
 #custom:
 #  pythonRequirements:
 #    dockerizePip: non-linux
