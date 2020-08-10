@@ -10,7 +10,7 @@ import time
 ##from retrying import retry
 import yaml
 
-#s3_conf_bucket = os.environ['CONFIG_BUCKET']
+##s3_conf_bucket = os.environ['CONFIG_BUCKET']
 region = os.environ['REGION']
 #s3_db_bucket = os.environ['SOURCE_BUCKET']
 #s3_db_path = os.environ['SOURCE_PATH']
